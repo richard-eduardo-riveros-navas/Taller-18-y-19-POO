@@ -23,10 +23,11 @@ class CajeroAutomaticoo implements OperacionBancaria {
 }
  class Prueba {
     public static void main(String[] args) {
-        CajeroAutomatico cajero = new CajeroAutomatico();
+        CajeroAutomaticoo cajero = new CajeroAutomaticoo();
 
         cajero.retirar(50000);
         cajero.transferir(120000);
+        cajero.pagarFactura(2000);
     }
 }
 
